@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="PlaGame" package="fr.kami.plagame" version="1.0.1" company="Kami" />
+	<app main="Main" path="Export" file="PlaGame" />
+	<window background="#333333" fps="60" />
+	<window width="500" height="500" unless="mobile" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<assets path="Assets/Font" rename="font" include="*.ttf" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
